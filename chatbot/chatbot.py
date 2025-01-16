@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open(r'C:\Users\adity\Desktop\pu chatbot\chatbot\Include\intents.json').read())
+intents = json.loads(open(r'C:\Users\chatbot\Include\intents.json').read())
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
