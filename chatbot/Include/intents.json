@@ -1,0 +1,129 @@
+{"intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+       "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+       "context": [""]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+       "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+       "context": [""]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["My pleasure", "You're Welcome"],
+       "context": [""]
+      },
+      {"tag": "query",
+       "patterns": ["what is this project about?"],
+       "responses": ["it is for prayogam 2024 poornima university!"],
+       "context": [""]
+      },
+      {"tag": "health",
+       "patterns": ["how are you","what's up","how are you doing"],
+       "responses": ["I am fine!"],
+       "context": [""]
+      },
+      {"tag": "outdomain",
+       "patterns": ["how is the weather","weather","what do you mean by ai"],
+       "responses": ["sorry this is not in my domain! I am a pybot"],
+       "context": [""]
+      },
+      {"tag": "uses",
+       "patterns": ["what are you here for","what can you do","what can i ask you"],
+       "responses": ["i am python chatbot you can ask me any quesries about python!"],
+       "context": [""]
+      },
+      {"tag": "question1",
+       "patterns": ["How can Python handle concurrent tasks using threads?" ,"concurrent tasks","threads"],
+       "responses": ["Python can handle concurrent tasks using threads through the threading module. However, due to the Global Interpreter Lock (GIL), threading may not provide optimal performance for CPU-bound tasks. For I/O-bound tasks, threads can be effective in Python."],
+       "context": [""]
+      },
+      {"tag": "question2",
+       "patterns": ["Explain the purpose of the __call__ method in Python.","call"],
+       "responses": ["The __call__ method in Python allows an object to be called as if it were a function. When an object defines __call__, it can be invoked using parentheses, and the __call__ method will be executed. This is useful for creating callable objects."],
+       "context": [""]
+      },
+      {"tag": "question3",
+       "patterns": ["How does Python support handling regular expressions?","regular expressions"],
+       "responses": ["Python supports handling regular expressions through the re module. This module includes functions like re.match(), re.search(), and re.findall() for pattern matching and extraction. Regular expressions are powerful for text processing and pattern matching tasks."],
+       "context": [""]
+      },
+      {"tag": "question4",
+       "patterns": ["What is the role of the __slots__ attribute in Python classes?","slots"],
+       "responses": ["The __slots__ attribute in Python is used to explicitly declare instance variables for a class. It can improve memory efficiency by preventing the creation of a dynamic dict for object attributes. Instances of classes with __slots__ use a fixed amount of memory."],
+       "context": [""]
+      },
+      {"tag": "question5",
+       "patterns": ["Explain the purpose of the asyncio module in Python","asyncio"],
+       "responses": ["The asyncio module in Python supports asynchronous programming. It provides an event loop, async and await keywords, and various tools for managing asynchronous tasks. This module is particularly useful for handling concurrent operations, such as asynchronous I/O."],
+       "context": [""]
+      },
+            {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+       "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+       "context": [""]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+       "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+       "context": [""]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["My pleasure", "You're Welcome"],
+       "context": [""]
+      },
+      {"tag": "query",
+       "patterns": ["what is this project about?"],
+       "responses": ["it is for prayogam 2024 poornima university!"],
+       "context": [""]
+      },
+      {"tag": "health",
+       "patterns": ["how are you","what's up","how are you doing"],
+       "responses": ["I am fine!"],
+       "context": [""]
+      },
+      {"tag": "outdomain",
+       "patterns": ["how is the weather","weather","what do you mean by ai"],
+       "responses": ["sorry this is not in my domain! I am a pybot"],
+       "context": [""]
+      },
+      {"tag": "uses",
+       "patterns": ["what are you here for","what can you do","what can i ask you"],
+       "responses": ["i am python chatbot you can ask me any quesries about python!"],
+       "context": [""]
+      },
+      {"tag": "question1",
+       "patterns": ["How can Python handle concurrent tasks using threads?" ,"concurrent tasks","threads"],
+       "responses": ["Python can handle concurrent tasks using threads through the threading module. However, due to the Global Interpreter Lock (GIL), threading may not provide optimal performance for CPU-bound tasks. For I/O-bound tasks, threads can be effective in Python."],
+       "context": [""]
+      },
+      {"tag": "question2",
+       "patterns": ["Explain the purpose of the __call__ method in Python.","call"],
+       "responses": ["The __call__ method in Python allows an object to be called as if it were a function. When an object defines __call__, it can be invoked using parentheses, and the __call__ method will be executed. This is useful for creating callable objects."],
+       "context": [""]
+      },
+      {"tag": "question3",
+       "patterns": ["How does Python support handling regular expressions?","regular expressions"],
+       "responses": ["Python supports handling regular expressions through the re module. This module includes functions like re.match(), re.search(), and re.findall() for pattern matching and extraction. Regular expressions are powerful for text processing and pattern matching tasks."],
+       "context": [""]
+      },
+      {"tag": "question4",
+       "patterns": ["What is the role of the __slots__ attribute in Python classes?","slots"],
+       "responses": ["The __slots__ attribute in Python is used to explicitly declare instance variables for a class. It can improve memory efficiency by preventing the creation of a dynamic dict for object attributes. Instances of classes with __slots__ use a fixed amount of memory."],
+       "context": [""]
+      },
+      {"tag": "question5",
+       "patterns": ["Explain the purpose of the asyncio module in Python","asyncio"],
+       "responses": ["The asyncio module in Python supports asynchronous programming. It provides an event loop, async and await keywords, and various tools for managing asynchronous tasks. This module is particularly useful for handling concurrent operations, such as asynchronous I/O."],
+       "context": [""]
+      },
+      {"tag": "question6",
+       "patterns": ["what is the use of json file?","json","json uses in python"],
+       "responses": ["json file is used to store some data that you can access through the importing the json library in python"],
+       "context": [""]
+      }
+      
+      
+      ]}
